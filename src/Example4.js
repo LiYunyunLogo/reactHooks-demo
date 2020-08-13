@@ -8,6 +8,7 @@ function Counter(){
     let count = useContext(CountText) //接收组建传过来的值
     return count+'lyy'
 }
+
 // 函数组件
 function Example4(){
     const [count, setCount] = useState(0)
